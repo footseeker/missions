@@ -3378,7 +3378,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=507;
+		items=508;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -8355,6 +8355,14 @@ class Mission
 			text="atm1_1_3_1_6_4_4";
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu]; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];";
 		};
+		class Item507
+		{
+			position[]={3651.2964,10.275949,13105.574};
+			id=712;
+			side="EMPTY";
+			vehicle="Land_Pallet_F";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
@@ -8395,7 +8403,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={3529.9373,7.3869972,13055.158};
+			position[]={3658.5615,10.394667,13100.71};
 			name="civ_spawn_1";
 			type="Empty";
 		};
